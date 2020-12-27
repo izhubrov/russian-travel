@@ -1,0 +1,24 @@
+.place__image {
+  width: 460px;
+}
+
+@media screen and (max-width:1025px)
+{
+.place__image {
+  width: 440px;
+}
+}
+
+@media screen and (max-width:850px)
+{
+.place__image {
+  width: 340px;
+}
+}
+
+@media screen and (max-width:640px)
+{
+.place__image {
+  width: 320px;
+}
+}

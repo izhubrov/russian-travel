@@ -1,0 +1,23 @@
+.places {
+  display:grid;
+  justify-content: center;
+  grid-template-columns: minmax(min-content,max-content);
+  row-gap: 80px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width:850px)
+{
+.places {
+  row-gap: 73px;
+  padding-bottom: 90px;
+}
+}
+
+@media screen and (max-width:640px)
+{
+.places {
+  row-gap: 49px;
+  padding-bottom: 66px;
+}
+}
