@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 640px) {
   .photo-grid {
     grid-template-columns: 288px;
     row-gap: 12px;
