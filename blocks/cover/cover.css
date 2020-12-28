@@ -1,14 +1,38 @@
 .cover {
-  padding-bottom: 92px;
+  margin-bottom: 92px;
   display:flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   color: #fff;
   position: relative;
+  z-index: 1;
   max-width: 1184px;
   height: 740px;
-  z-index: 1;
-  text-decoration: none;
 }
 
+@media screen and (max-width: 1185px)
+{
+  .cover {
+    height: calc(100vw*740/1184);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .cover {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    height: 200px;
+  }
+}
