@@ -1,14 +1,14 @@
 .cover {
   margin-bottom: 92px;
-  display:flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  color: #fff;
   position: relative;
   z-index: 1;
   max-width: 1184px;
   height: 740px;
+  cursor: pointer;
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1185px)
