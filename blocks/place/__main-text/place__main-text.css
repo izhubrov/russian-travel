@@ -1,6 +1,9 @@
+.place__main-text {
+  max-width: 484px;
+}
 @media screen and (max-width: 640px) {
   .place__main-text {
-    max-width: 288px;
+    max-width: calc(100vw - 32px);
 }
 }
 

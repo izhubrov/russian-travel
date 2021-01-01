@@ -21,11 +21,12 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 592px) {
   .photo-grid {
-    grid-template-columns: 288px;
+    grid-template-columns: minmax(min-content,max-content);
     row-gap: 12px;
     padding-bottom: 64px;
   }
 }
+
 
