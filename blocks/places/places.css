@@ -4,6 +4,7 @@
   grid-template-columns: minmax(min-content,max-content);
   row-gap: 80px;
   padding-bottom: 92px;
+  max-width: 1184px;
 }
 
 @media screen and (max-width:850px)
