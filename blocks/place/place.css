@@ -6,8 +6,6 @@
   column-gap: 40px;
   row-gap: 48px;
   grid-template-columns: 460px minmax(min-content,max-content);
-  justify-content: center;
-  justify-items: start;
 }
 
 @media screen and (max-width:1025px)
