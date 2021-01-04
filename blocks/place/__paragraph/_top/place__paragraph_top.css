@@ -1,9 +1,0 @@
-.place__paragraph_top {
-  padding-bottom: 26px;
-}
-
-@media screen and (max-width: 850px) {
-  .place__paragraph_top {
-    padding-bottom: 25px;
-  }
-}

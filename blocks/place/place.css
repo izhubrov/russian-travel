@@ -16,7 +16,7 @@
 }
 }
 
-@media screen and (max-width:850px)
+@media screen and (max-width:870px)
 {
 .place {
   grid-template-columns: 340px minmax(min-content,max-content);
@@ -24,7 +24,7 @@
 }
 }
 
-@media screen and (max-width:640px)
+@media screen and (max-width:660px)
 {
 .place {
   grid-template-columns: minmax(min-content,max-content);
