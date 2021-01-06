@@ -1,20 +1,8 @@
 .header__lang-link {
-  display: flex;
   margin-right: 18px;
-  color: #fff;
-  font-size: 24px;
-  font-style:  normal;
-  font-weight: 400;
-  line-height: 1.17;
 }
 
 .header__lang-link:last-of-type {
   margin-right: 0;
 }
 
-@media screen and (max-width:769px) {
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 1.11;
-  }
-}

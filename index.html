@@ -12,12 +12,12 @@
 <body class="page">
 
   <header class="header page__container">
-      <img class="header__logo" src="./images/__logo.svg" alt="Логотип сайта - карта России с названием страны Россия">
-      <div class="header__lang-link">
-        <a href="#" target="_self" class="header__lang-link page__link page__link_decor">Ru</a>
-        <a href="#" target="_self" class="header__lang-link page__link">En</a>
-      </div>
-    </header>
+    <img class="header__logo" src="./images/__logo.svg" alt="Логотип сайта - карта России с названием страны Россия">
+    <ul class="header__lang-links">
+      <li class="header__lang-link header__lang-link_active"><a href="#" target="_self" class="page__link">Ru</a></li>
+      <li class="header__lang-link"><a href="#" target="_self" class="page__link">En</a></li>
+    </ul>
+  </header>
 
     <main>
 
@@ -30,8 +30,8 @@
         </figure>
       </section>
 
-      <article class="intro page__container">
-        <h2 class="intro__title">Чего мы там <span class="page__span-accent"></span>не видели?</h2>
+      <section class="intro page__container">
+        <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
         <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране.
           Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга,
@@ -41,13 +41,13 @@
           Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
         </p>
         <ul class="intro__list">
-          <li class="intro__list-text">Часовых поясов <span class="intro__list-text intro__list-text_number">11</span></li>
-          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__list-text intro__list-text_number">12</span></li>
-          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__list-text intro__list-text_number">16</span></li>
-          <li class="intro__list-text">Природных заповедников <span class="intro__list-text intro__list-text_number">105</span></li>
-          <li class="intro__list-text">Аэропортов <span class="intro__list-text intro__list-text_number">241</span></li>
+          <li class="intro__list-text">Часовых поясов <span class="intro__span-accent">11</span></li>
+          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+          <li class="intro__list-text">Природных заповедников <span class="intro__span-accent">105</span></li>
+          <li class="intro__list-text">Аэропортов <span class="intro__span-accent">241</span></li>
         </ul>
-      </article>
+      </section>
 
       <section class="photo-grid page__container">
         <img class="photo-grid__item" src="./images/photo-grid/__window.jpg" alt="Изображение окна поезда">
@@ -152,8 +152,8 @@
       <section class="cover page__container">
         <div class="cover__background"></div>
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener noreferrer">
-          <h2 class="cover__title">До Байкала <span class="page__span-accent"></span>«на собаках»</h2>
-          <p class="cover__subtitle">По мотивам учебной темы <span class="page__span-accent"></span>о Транссибе — путешествие <span class="page__span-accent"></span>от столицы до Байкала на электричках.</p>
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
           <div class="cover__overlay"></div>
         </a>
       </section>
@@ -161,12 +161,14 @@
     </main>
 
     <footer class="footer page__container">
-      <nav class="footer__links">
-        <a class="footer__link page__link" href="https://yandex.ru/maps" target="_blank" rel="noopener noreferrer">Карты</a>
-        <a class="footer__link page__link" href="https://yandex.ru/pogoda" target="_blank" rel="noopener noreferrer">Погода</a>
-        <a class="footer__link page__link" href="https://rasp.yandex.ru" target="_blank" rel="noopener noreferrer">Расписание</a>
-        <a class="footer__link page__link" href="https://calendar.yandex.ru" target="_blank" rel="noopener noreferrer">Календарь</a>
-        <a class="footer__link page__link" href="https://travel.yandex.ru" target="_blank" rel="noopener noreferrer">Путешествия</a>
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__link"> <a  class="page__link" href="https://yandex.ru/maps" target="_blank" rel="noopener noreferrer">Карты</a></li>
+          <li class="footer__link"><a class="page__link" href="https://yandex.ru/pogoda" target="_blank" rel="noopener noreferrer">Погода</a></li>
+          <li class="footer__link"><a class="page__link" href="https://rasp.yandex.ru" target="_blank" rel="noopener noreferrer">Расписание</a></li>
+          <li class="footer__link"><a class="page__link" href="https://calendar.yandex.ru" target="_blank" rel="noopener noreferrer">Календарь</a></li>
+          <li class="footer__link"><a class="page__link" href="https://travel.yandex.ru" target="_blank" rel="noopener noreferrer">Путешествия</a></li>
+        </ul>
       </nav>
       <p class="footer__copyright">&copy; 2020 Иван Жубров</p>
     </footer>

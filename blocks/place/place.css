@@ -28,7 +28,13 @@
 {
 .place {
   grid-template-columns: minmax(min-content,max-content);
-  gap: 32px;
   justify-items: center;
+}
+}
+
+@media screen and (max-width:660px) and (max-height: 321px)
+{
+.place {
+  grid-template-columns: 320px;
 }
 }
