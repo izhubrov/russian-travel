@@ -1,9 +1,0 @@
-.page__span-accent {
-  display: none;
-}
-
-@media screen and (max-width: 640px) {
-  .page__span-accent {
-    display: block;
-  }
-}
